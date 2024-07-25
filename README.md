@@ -37,7 +37,7 @@ A simple game. The goal is to distroy all the boxes and create a highscore.
 
 1. **Retrieve an authentication token and authenticate your Docker client to your registry. Use the AWS CLI:**
     ```bash
-    aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/f8g8h5d4
+    aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin <YOUR ECR URI>
     ```
     **Note:** If you receive an error using the AWS CLI, make sure that you have the latest version of the AWS CLI and Docker installed.
 
