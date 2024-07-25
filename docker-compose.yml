@@ -5,5 +5,5 @@ services:
     container_name: box-ninja
     image: public.ecr.aws/f8g8h5d4/sukhil-nginx:latest
     ports:
-      - "33100:80"
-      - "33101:443"
+      - "80:80"
+      - "443:443"
